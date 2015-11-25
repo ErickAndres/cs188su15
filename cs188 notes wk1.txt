@@ -1,0 +1,42 @@
+However, one cool theorem is that consistent heuristics imply admissibility (notice the single if, this is not true the other way around)
+
+
+kfor uniform cost search, expand out with paths with lowest cost.
+for breadth first search expand with shortest path.
+depth first search goes for longest path
+greedy use heuristic
+
+Euclidean distance will always be less than Manhattan distance, so it is admissable.
+heuristics are used to estimate the true cost to the goal
+
+
+For regular A∗ graph search, If h is consistent, then A∗ graph search finds an optimal solution.Consistency ensures that the first time we expand a state, the cost to that state is optimal. This is important for A* graph search, because the first time a state is expanded, it will go in the closed set, and it will NEVER be expanded again.
+
+in graph search algorithm node goes in fringe 
+state goes to empty set
+usually easier to apply uniry constraints prior to anything to gsp
+The fringe is a general term for that data structure holding the upcoming nodes.
+
+Unary constraints are constraints that involve a single variable. i only contrains (B), v only constrains (A), and vi only constrains (D). All the other constraints involve more than one variable.
+
+How many constraints does the CSP have? it is 5 since they are 5 squares that represent constraints
+
+quiz 4 answer second third one is asking which nodes actually got expanded. Others aren’t
+.
+
+ask about hw3 about shallow search???
+
+Sherlock Agent->really good knowledge base
+-evidence, understanding of how the world works(physics, chem, sociology)
+-> really good inference
+-skills of deduction
+
+entailment a entails B, so a is a subset of B.
+Entailment relates two sentences, while an implication is itself a sentence
+
+
+for last question from quiz 5 of lecture 7 of spring 2015 you get answer based on just relating the facts
+
+
+
+DONT understand last question of LECTURE 7
